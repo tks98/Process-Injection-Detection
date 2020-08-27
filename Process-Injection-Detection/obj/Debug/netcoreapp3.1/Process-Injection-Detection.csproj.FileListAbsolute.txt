@@ -1,0 +1,12 @@
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\bin\Debug\netcoreapp3.1\Process-Injection-Detection.exe
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\bin\Debug\netcoreapp3.1\Process-Injection-Detection.deps.json
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\bin\Debug\netcoreapp3.1\Process-Injection-Detection.runtimeconfig.json
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\bin\Debug\netcoreapp3.1\Process-Injection-Detection.runtimeconfig.dev.json
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\bin\Debug\netcoreapp3.1\Process-Injection-Detection.dll
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\bin\Debug\netcoreapp3.1\Process-Injection-Detection.pdb
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\obj\Debug\netcoreapp3.1\Process-Injection-Detection.AssemblyInfoInputs.cache
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\obj\Debug\netcoreapp3.1\Process-Injection-Detection.AssemblyInfo.cs
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\obj\Debug\netcoreapp3.1\Process-Injection-Detection.csproj.CoreCompileInputs.cache
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\obj\Debug\netcoreapp3.1\Process-Injection-Detection.dll
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\obj\Debug\netcoreapp3.1\Process-Injection-Detection.pdb
+C:\Desktop\Process-Injection-Detection\Process-Injection-Detection\obj\Debug\netcoreapp3.1\Process-Injection-Detection.genruntimeconfig.cache
