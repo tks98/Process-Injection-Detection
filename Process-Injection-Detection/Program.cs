@@ -12,6 +12,8 @@ namespace Process_Injection_Detection
 {
     class Program
     {
+        public static ProcessThreadCollection RunningThreads { get; private set; }
+
         static void Main(string[] args)
         {
             ProcessExaminer processExaminer = new ProcessExaminer();
@@ -26,7 +28,7 @@ namespace Process_Injection_Detection
 
             processExaminer.PrintRegions(targetProcess);
 
-            /*
+           
             List<Module> modules = processExaminer.CollectModules(targetProcess);
 
             foreach (Module module in modules)
@@ -34,12 +36,13 @@ namespace Process_Injection_Detection
                 DumpModule(module);
             }
 
-            /*
-            RunningThreads = CurrentProcess.Threads;
-            foreach (ProcessThread thread in runningThreads)
-            { // dump Thread details 
-                DumpThread(thread);
-            } */
+            Console.WriteLine("Dumping Threads\n");
+            ProcessThreadCollection RunningThreads = targetProcess.Threads;
+            foreach (ProcessThread thread in RunningThreads)
+            {  
+                Console.WriteLine(thread.Id);
+                Console.WriteLine(thread.ThreadState);
+            } 
 
         }
 
@@ -114,8 +117,6 @@ class ProcessExaminer
             {
                 Console.WriteLine(current.ProcessName);
                 Console.WriteLine(e);
-
-
             }
 
             Console.WriteLine("\n");
